@@ -23,7 +23,7 @@ print()
 
 print('Do you want to encrypt or decrypt ?')
 user_input = input('e/d: ').lower()
-print()
+print() 
 
 if user_input == 'e': 
     print('ENCRYPTION MODE SELECTED')
