@@ -27,7 +27,7 @@ The program will prompt you to choose whether you want to encrypt or decrypt a m
 
 ## Example 
 
-Encrypting a message
+** Encrypting a message
 
 $ python caesar_cipher.py
 
@@ -40,7 +40,7 @@ Enter the key: 3
 Enter the text to encrypt: hello world
 CIPHERTEXT: khoor zruog
 
-Decrypting a message 
+** Decrypting a message 
 
 $ python caesar_cipher.py
 
