@@ -25,7 +25,8 @@ The program will prompt you to choose whether you want to encrypt or decrypt a m
    ```bash
    python caesar_cipher.py
 
-##Example 
+## Example 
+
 Encrypting a message
 
 $ python caesar_cipher.py
