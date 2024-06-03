@@ -50,5 +50,5 @@ e/d: d
 DECRYPTION MODE SELECTED
 
 Enter the key: 3. 
-Enter the text to decrypt: khoor zruog. 
+Enter the text to decrypt: khoor zruog.  
 PLAINTEXT: hello world
