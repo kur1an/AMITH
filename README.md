@@ -1,10 +1,10 @@
 # Caesar Cipher Encryption/Decryption
 
-This Python script implements the Caesar Cipher algorithm for encrypting and decrypting text messages.
+This is a simple Python program that can encrypt and decrypt text using the Caesar Cipher algorithm. Users can input a message and a shift value to perform encryption and decryption
 
 ## Usage
 
-To encrypt or decrypt a message, run the `caesar_cipher.py` script and follow the prompts.
+The program will prompt you to choose whether you want to encrypt or decrypt a message, and then ask for the text and the shift key.
 
 ## Features
 
@@ -17,7 +17,37 @@ To encrypt or decrypt a message, run the `caesar_cipher.py` script and follow th
 2. Ensure you have Python installed.
 3. Run the script using Python.
 
-## Example
+## Running the Script
 
-```bash
-python caesar_cipher.py
+1. **Open your terminal or command prompt**.
+2. **Navigate to the directory where `caesar_cipher.py` is located**.
+3. **Run the script**:
+   ```bash
+   python caesar_cipher.py
+
+##Example 
+Encrypting a message
+
+$ python caesar_cipher.py
+
+Do you want to encrypt or decrypt?
+e/d: e
+
+ENCRYPTION MODE SELECTED
+
+Enter the key: 3
+Enter the text to encrypt: hello world
+CIPHERTEXT: khoor zruog
+
+Decrypting a message 
+
+$ python caesar_cipher.py
+
+Do you want to encrypt or decrypt?
+e/d: d
+
+DECRYPTION MODE SELECTED
+
+Enter the key: 3
+Enter the text to decrypt: khoor zruog
+PLAINTEXT: hello world
